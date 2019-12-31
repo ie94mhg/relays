@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>openvpn-server Web Server</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h2>openvpn-server Web Server</h2>
+    <p>Riego árbol de Limon: {{relay1_state}}</p>
+    <a href="/r1_on"><button>ON</button></a>
+    <a href="/r1_off"><button class="off">OFF</button></a>
+    <p>Relay 2: {{relay2_state}}</p>
+    <a href="/r2_on"><button>ON</button></a>
+    <a href="/r2_off"><button class="off">OFF</button></a>
+    <p>Relay 3: {{relay3_state}}</p>
+    <a href="/r3_on"><button>ON</button></a>
+    <a href="/r3_off"><button class="off">OFF</button></a>
+    <p>Relay 4: {{relay4_state}}</p>
+    <a href="/r4_on"><button>ON</button></a>
+    <a href="/r4_off"><button class="off">OFF</button></a>
+    <p>Relay 5: {{relay5_state}}</p>
+    <a href="/r5_on"><button>ON</button></a>
+    <a href="/r5_off"><button class="off">OFF</button></a>
+    <p>Relay 6: {{relay6_state}}</p>
+    <a href="/r6_on"><button>ON</button></a>
+    <a href="/r6_off"><button class="off">OFF</button></a>
+    <p>Relay 7: {{relay7_state}}</p>
+    <a href="/r7_on"><button>ON</button></a>
+    <a href="/r7_off"><button class="off">OFF</button></a>
+    <p>Relay 8: {{relay8_state}}</p>
+    <a href="/r8_on"><button>ON</button></a>
+    <a href="/r8_off"><button class="off">OFF</button></a>
+</body>
+</html>
